@@ -1,0 +1,9 @@
+{
+  "userName": "shaimaa@test.com",
+  "password": "pwd",
+  "invalidPassword": "passwordPassword",
+
+  "firstInputText": "Hello",
+  "secondInputText": " World!"
+
+}
