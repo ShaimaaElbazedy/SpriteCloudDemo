@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54781e4e-4ba6-4deb-9b2b-aee3780253a0" name="Changes" comment="Adding SHAFT Engine framework configurations">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/AJAXDataPaga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/LandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/ResourcesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/SampleAppPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/TextInputPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gui/AJAXDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gui/LandingPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gui/SampleAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gui/TextInputTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/guiTestDataFiles/testData.json" afterDir="false" />
+    <list default="true" id="54781e4e-4ba6-4deb-9b2b-aee3780253a0" name="Changes" comment="Adding Test cases for Web GUI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/PetClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/StoreClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/petEndpointsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/storeEndpointsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apiTestDataFiles/createPetRequestBody.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apiTestDataFiles/createStoreOrderRequestBody.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,15 +49,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/shaimaaelbazedy/Documents/Automation projects/Shaft_Engine/Projects/SpriteCloudDemo/src/test"
+    "last_opened_file_path": "/Users/shaimaaelbazedy/Documents/Automation projects/Shaft_Engine/Projects/SpriteCloudDemo/src/test/resources/apiTestDataFiles",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/apiTestDataFiles" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AJAXDataTest">
+  <component name="RunManager" selected="TestNG.storeEndpointsTest">
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="PROGRAM_PARAMETERS" value="--plugin com.shaft.tools.listeners.CucumberFeatureListener" />
       <shortenClasspath name="NONE" />
@@ -126,43 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleAppTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstTrialProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="gui" />
-      <option name="MAIN_CLASS_NAME" value="gui.SampleAppTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
-        <listener class="com.shaft.tools.listeners.SuiteListener" />
-        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
-        <listener class="com.shaft.tools.listeners.InvokedMethodListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TextInputTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstTrialProject" />
       <shortenClasspath name="NONE" />
@@ -183,82 +145,6 @@
       <option name="MAIN_CLASS_NAME" value="gui.TextInputTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
-        <listener class="com.shaft.tools.listeners.SuiteListener" />
-        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
-        <listener class="com.shaft.tools.listeners.InvokedMethodListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextInputTest.checkButtonSizeAndFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstTrialProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="gui" />
-      <option name="MAIN_CLASS_NAME" value="gui.TextInputTest" />
-      <option name="METHOD_NAME" value="checkButtonSizeAndFunctionality" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
-        <listener class="com.shaft.tools.listeners.SuiteListener" />
-        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
-        <listener class="com.shaft.tools.listeners.InvokedMethodListener" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextInputTest.testingEnterKeyPress" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FirstTrialProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="gui" />
-      <option name="MAIN_CLASS_NAME" value="gui.TextInputTest" />
-      <option name="METHOD_NAME" value="testingEnterKeyPress" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -306,13 +192,125 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="petEndpointsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstTrialProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.petEndpointsTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
+        <listener class="com.shaft.tools.listeners.SuiteListener" />
+        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
+        <listener class="com.shaft.tools.listeners.InvokedMethodListener" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="petEndpointsTest.deleteNonExistingPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstTrialProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.petEndpointsTest" />
+      <option name="METHOD_NAME" value="deleteNonExistingPet" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
+        <listener class="com.shaft.tools.listeners.SuiteListener" />
+        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
+        <listener class="com.shaft.tools.listeners.InvokedMethodListener" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="storeEndpointsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstTrialProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.storeEndpointsTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
+        <listener class="com.shaft.tools.listeners.SuiteListener" />
+        <listener class="com.shaft.tools.listeners.AlterSuiteListener" />
+        <listener class="com.shaft.tools.listeners.InvokedMethodListener" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.storeEndpointsTest" />
+        <item itemvalue="TestNG.petEndpointsTest.deleteNonExistingPet" />
+        <item itemvalue="TestNG.petEndpointsTest" />
         <item itemvalue="TestNG.AJAXDataTest" />
         <item itemvalue="TestNG.TextInputTest" />
-        <item itemvalue="TestNG.TextInputTest.testingEnterKeyPress" />
-        <item itemvalue="TestNG.TextInputTest.checkButtonSizeAndFunctionality" />
-        <item itemvalue="TestNG.SampleAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -332,11 +330,19 @@
       <option name="project" value="LOCAL" />
       <updated>1670682875654</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Test cases for Web GUI">
+      <created>1670710803389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670710803389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding SHAFT Engine framework configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding SHAFT Engine framework configurations" />
+    <MESSAGE value="Adding Test cases for Web GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Test cases for Web GUI" />
   </component>
 </project>
