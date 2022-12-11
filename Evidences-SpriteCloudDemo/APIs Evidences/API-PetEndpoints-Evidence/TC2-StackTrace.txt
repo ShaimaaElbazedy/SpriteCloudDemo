@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	"2 out of 7" test cases in the current suite
+Test Method:		"api.PetEndpointsTest.getPetById"
+Test Description:	"TC2: Retrieving the created pet by its id"
+################################################################################################################################################
+[ReportManager] Get response jsonvalue "$[?(@.id)].id". @11-12-2022 15:14:36.0564 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @11-12-2022 15:14:37.0437 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @11-12-2022 15:14:37.0438 PM
+[ReportManager] Perform request "GET | Target Status Code: 200 | Service URL: https://petstore.swagger.io/v2/pet/126126 | Content Type: */* | Response Time: 861ms". @11-12-2022 15:14:37.0452 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @11-12-2022 15:14:37.0453 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @11-12-2022 15:14:37.0454 PM
+[ReportManager] Get response jsonvalue "$[?(@.id)].id". @11-12-2022 15:14:37.0457 PM
+[ReportManager] Get response jsonvalue "$[?(@.id)].id". @11-12-2022 15:14:37.0459 PM
+[ReportManager] Assertion Passed: The API response extracted value from the JSON path "$[?(@.id)].id" is equal to "126126". @11-12-2022 15:14:37.0462 P

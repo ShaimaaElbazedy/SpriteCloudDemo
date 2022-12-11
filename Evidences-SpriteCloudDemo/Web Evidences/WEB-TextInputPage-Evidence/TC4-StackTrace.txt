@@ -1,0 +1,18 @@
+
+################################################################################################################################################
+Starting Execution:	"4 out of 4" test cases in the current suite
+Test Method:		"gui.TextInputTest.appendToExistingText"
+Test Description:	"TC4: Checking the Appending to the existing text in the text field"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:13.0242 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:13.0242 PM
+[ReportManager] Type append "World!" into "Set New Button Name". @11-12-2022 16:49:13.0320 PM
+[ReportManager] Click "Hello". @11-12-2022 16:49:13.0586 PM
+[ReportManager] Get size "(114, 38)" from "Hello World!". @11-12-2022 16:49:13.0654 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:13.0654 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:13.0655 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:13.0666 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:13.0666 PM
+[ReportManager] Get text "Hello World!" from "Hello World!". @11-12-2022 16:49:13.0711 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: updatingButton" text is equal to "Hello World!". @11-12-2022 16:49:15.0744 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670770155187_appendToExistingText_ValidateElementAttribute_passed" @11-12-2022 16:49:15.0746 P

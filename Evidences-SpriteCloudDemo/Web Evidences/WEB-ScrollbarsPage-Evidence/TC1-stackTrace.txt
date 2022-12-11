@@ -1,0 +1,21 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"gui.ScrollBarsTest.checkOnHiddenButton"
+Test Description:	"Scrolling to the hidden button, verifying that it's displayed"
+################################################################################################################################################
+[ReportManager] Scroll to element "Scrollbars". @11-12-2022 16:44:47.0815 PM
+[ReportManager] Click "Scrollbars". @11-12-2022 16:44:48.0513 PM
+[ReportManager] Get current window title "Scrollbars". @11-12-2022 16:44:48.0561 PM
+[ReportManager] Verification Passed: The Browser title is equal to "Scrollbars". @11-12-2022 16:44:52.0211 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769889372_checkOnHiddenButton_ValidateBrowserAttribute_passed" @11-12-2022 16:44:52.0229 PM
+[ReportManager] Scroll to element "Hiding Button". @11-12-2022 16:44:52.0298 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.id: hidingButton". @11-12-2022 16:44:52.0299 PM
+[ReportManager] Get attribute from "Hiding Button". @11-12-2022 16:44:52.0352 PM
+[ReportManager] Verification Passed: The Element located by "By.id: hidingButton" is visible, hidden attribute is equal to "null". @11-12-2022 16:44:54.0225 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769893587_checkOnHiddenButton_ValidateElementAttribute_passed" @11-12-2022 16:44:54.0228 PM
+[ReportManager] Attempting to getAttribute "disabled" from elementLocator "By.id: hidingButton". @11-12-2022 16:44:54.0229 PM
+[ReportManager] Get attribute from "Hiding Button". @11-12-2022 16:44:54.0264 PM
+[ReportManager] Verification Passed: The Element located by "By.id: hidingButton" is enabled, disabled attribute is equal to "null". @11-12-2022 16:44:55.0913 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769895393_checkOnHiddenButton_ValidateElementAttribute_passed" @11-12-2022 16:44:55.0915 PM
+[ReportManager] Click "Hiding Button". @11-12-2022 16:44:56.0116 P

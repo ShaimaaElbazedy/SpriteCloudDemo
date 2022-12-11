@@ -1,0 +1,18 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 5" test cases in the current suite
+Test Method:		"api.StoreEndpointsTest.createStoreOrder"
+Test Description:	"Creating a store order"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/apiTestDataFiles/createStoreOrderRequestBody.json"". @11-12-2022 15:48:07.0836 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/apiTestDataFiles/createStoreOrderRequestBody.json"". @11-12-2022 15:48:07.0837 PM
+[ReportManager] File Action "ReadFile" successfully performed. With the following test data "File Path: "/Users/shaimaaelbazedy/Documents/Automation projects/Shaft_Engine/Projects/SpriteCloudDemo/src/test/resources/apiTestDataFiles/createStoreOrderRequestBody.json"". @11-12-2022 15:48:07.0838 PM
+[ReportManager] Successfully created attachment "File Action Actual Result - Command Log" @11-12-2022 15:48:07.0843 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @11-12-2022 15:48:10.0902 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @11-12-2022 15:48:10.0909 PM
+[ReportManager] Perform request "POST | Target Status Code: 200 | Service URL: https://petstore.swagger.io/v2/store/order | Content Type: application/json | Response Time: 2015ms". @11-12-2022 15:48:11.0669 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @11-12-2022 15:48:11.0670 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @11-12-2022 15:48:11.0915 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @11-12-2022 15:48:11.0916 PM
+[ReportManager] Get response status code "200". @11-12-2022 15:48:11.0916 PM
+[ReportManager] Assertion Passed: "200" is equal to "200". @11-12-2022 15:48:11.0917 P

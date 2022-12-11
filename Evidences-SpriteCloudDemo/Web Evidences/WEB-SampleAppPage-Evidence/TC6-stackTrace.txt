@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	"6 out of 6" test cases in the current suite
+Test Method:		"gui.SampleAppTest.navigateToResourcesScreen"
+Test Description:	"TC6: Testing resources icon functionality"
+################################################################################################################################################
+[ReportManager] Click "Resources". @11-12-2022 16:34:00.0484 PM
+[ReportManager] Get current window title "Resources". @11-12-2022 16:34:00.0489 PM
+[ReportManager] Verification Passed: The Browser title is equal to "Resources". @11-12-2022 16:34:01.0955 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769241190_navigateToResourcesScreen_ValidateBrowserAttribute_passed" @11-12-2022 16:34:01.0956 P

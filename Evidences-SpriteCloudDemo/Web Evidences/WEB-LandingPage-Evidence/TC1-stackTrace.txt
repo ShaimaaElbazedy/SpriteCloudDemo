@@ -1,0 +1,8 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"gui.LandingPageTest.verifyOnWebsiteTitle"
+################################################################################################################################################
+[ReportManager] Get current window title "UI Test Automation Playground". @11-12-2022 16:04:22.0106 PM
+[ReportManager] Verification Passed: The Browser title is equal to "UI Test Automation Playground". @11-12-2022 16:04:28.0141 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670767463622_verifyOnWebsiteTitle_ValidateBrowserAttribute_passed" @11-12-2022 16:04:28.0162 P

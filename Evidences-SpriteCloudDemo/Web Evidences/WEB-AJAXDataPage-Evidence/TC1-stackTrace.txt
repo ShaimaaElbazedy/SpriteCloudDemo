@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 3" test cases in the current suite
+Test Method:		"gui.AJAXDataTest.navigateToAjaxDataPage"
+Test Description:	"TC1: Navigating to AJAX data page and verifying that it's loaded"
+################################################################################################################################################
+[ReportManager] Click "AJAX Data". @11-12-2022 16:20:15.0397 PM
+[ReportManager] Get current window title "AJAX Data". @11-12-2022 16:20:15.0417 PM
+[ReportManager] Verification Passed: The Browser title is equal to "AJAX Data". @11-12-2022 16:20:19.0032 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670768416239_navigateToAjaxDataPage_ValidateBrowserAttribute_passed" @11-12-2022 16:20:19.0048 P

@@ -1,0 +1,18 @@
+
+################################################################################################################################################
+Starting Execution:	"4 out of 6" test cases in the current suite
+Test Method:		"gui.SampleAppTest.loginWithInvalidCredentials"
+Test Description:	"TC4: Login with invalid credentials"
+################################################################################################################################################
+[ReportManager] Scroll to element "Sample App". @11-12-2022 16:33:51.0840 PM
+[ReportManager] Click "Sample App". @11-12-2022 16:33:53.0772 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:53.0795 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:53.0795 PM
+[ReportManager] Type "shaimaa@test.com" into "User Name". @11-12-2022 16:33:54.0416 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:54.0416 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:54.0416 PM
+[ReportManager] Type "passwordPassword" into "********". @11-12-2022 16:33:54.0631 PM
+[ReportManager] Click "Log In". @11-12-2022 16:33:54.0847 PM
+[ReportManager] Get text "Invalid username/password" from "By.id: loginstatus". @11-12-2022 16:33:54.0884 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: loginstatus" text is equal to "Invalid username/password". @11-12-2022 16:33:56.0659 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769236081_loginWithInvalidCredentials_ValidateElementAttribute_passed" @11-12-2022 16:33:56.0661 P

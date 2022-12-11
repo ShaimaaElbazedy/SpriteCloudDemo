@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 4" test cases in the current suite
+Test Method:		"gui.TextInputTest.textInputScreenNavigation"
+Test Description:	"TC1: Navigating to Text input page and verifying that it's loaded"
+################################################################################################################################################
+[ReportManager] Click "Text Input". @11-12-2022 16:49:02.0354 PM
+[ReportManager] Get current window title "Text Input". @11-12-2022 16:49:02.0370 PM
+[ReportManager] Verification Passed: The Browser title is equal to "Text Input". @11-12-2022 16:49:06.0055 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670770143192_textInputScreenNavigation_ValidateBrowserAttribute_passed" @11-12-2022 16:49:06.0074 P

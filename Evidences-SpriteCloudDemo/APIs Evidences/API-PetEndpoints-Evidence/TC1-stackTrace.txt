@@ -1,0 +1,17 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 7" test cases in the current suite
+Test Method:		"api.PetEndpointsTest.createPet"
+Test Description:	"TC1: Creating a new pet entry"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/apiTestDataFiles/createPetRequestBody.json"". @11-12-2022 15:14:32.0321 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/apiTestDataFiles/createPetRequestBody.json"". @11-12-2022 15:14:32.0321 PM
+[ReportManager] File Action "ReadFile" successfully performed. With the following test data "File Path: "/Users/shaimaaelbazedy/Documents/Automation projects/Shaft_Engine/Projects/SpriteCloudDemo/src/test/resources/apiTestDataFiles/createPetRequestBody.json"". @11-12-2022 15:14:32.0324 PM
+[ReportManager] Successfully created attachment "File Action Actual Result - Command Log" @11-12-2022 15:14:32.0330 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @11-12-2022 15:14:35.0316 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @11-12-2022 15:14:35.0324 PM
+[ReportManager] Perform request "POST | Target Status Code: 200 | Service URL: https://petstore.swagger.io/v2/pet | Content Type: application/json | Response Time: 1614ms". @11-12-2022 15:14:36.0131 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @11-12-2022 15:14:36.0132 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @11-12-2022 15:14:36.0336 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @11-12-2022 15:14:36.0337 PM
+[ReportManager] Get response jsonvalue "$[?(@.id)].id". @11-12-2022 15:14:36.0474 P

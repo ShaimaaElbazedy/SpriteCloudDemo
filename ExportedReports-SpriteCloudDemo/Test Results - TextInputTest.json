@@ -1,0 +1,1129 @@
+{
+  "testrun": {
+    "count": [
+      {
+        "_name": "total",
+        "_value": "8"
+      },
+      {
+        "_name": "passed",
+        "_value": "8"
+      }
+    ],
+    "config": {
+      "module": {
+        "_name": "SpriteCloudDemo"
+      },
+      "shortenClasspath": {
+        "_name": "NONE"
+      },
+      "useClassPathOnly": "",
+      "extension": [
+        {
+          "pattern": {
+            "option": [
+              {
+                "_name": "PATTERN",
+                "_value": "gui.*"
+              },
+              {
+                "_name": "ENABLED",
+                "_value": "true"
+              }
+            ]
+          },
+          "_name": "coverage"
+        },
+        {
+          "option": [
+            {
+              "_name": "credential"
+            },
+            {
+              "_name": "region"
+            },
+            {
+              "_name": "useCurrentConnection",
+              "_value": "false"
+            }
+          ],
+          "_name": "software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension"
+        }
+      ],
+      "option": [
+        {
+          "_name": "SUITE_NAME",
+          "_value": ""
+        },
+        {
+          "_name": "PACKAGE_NAME",
+          "_value": "gui"
+        },
+        {
+          "_name": "MAIN_CLASS_NAME",
+          "_value": "gui.TextInputTest"
+        },
+        {
+          "_name": "GROUP_NAME",
+          "_value": ""
+        },
+        {
+          "_name": "TEST_OBJECT",
+          "_value": "CLASS"
+        },
+        {
+          "_name": "PARAMETERS",
+          "_value": ""
+        },
+        {
+          "_name": "OUTPUT_DIRECTORY",
+          "_value": ""
+        },
+        {
+          "value": {
+            "_defaultName": "moduleWithDependencies"
+          },
+          "_name": "TEST_SEARCH_SCOPE"
+        },
+        {
+          "_name": "PROPERTIES_FILE",
+          "_value": ""
+        }
+      ],
+      "properties": "",
+      "listeners": {
+        "listener": [
+          {
+            "_class": "com.shaft.tools.listeners.AlterSuiteListener"
+          },
+          {
+            "_class": "com.shaft.tools.listeners.SuiteListener"
+          },
+          {
+            "_class": "com.shaft.tools.listeners.AlterSuiteListener"
+          },
+          {
+            "_class": "com.shaft.tools.listeners.InvokedMethodListener"
+          }
+        ]
+      },
+      "method": {
+        "option": {
+          "_name": "Make",
+          "_enabled": "true"
+        },
+        "_v": "2"
+      },
+      "_nameIsGenerated": "true",
+      "_configId": "TestNG",
+      "_name": "TextInputTest"
+    },
+    "root": {
+      "output": [
+        {
+          "_type": "stdout",
+          "__text": "/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home/bin/java -ea -Dtestng.dtd.http=true -javaagent:/Users/shaimaaelbazedy/.m2/repository/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar -Didea.test.cyclic.buffer.size=1048576 -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64815:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA CE.app/Contents/plugins/testng/lib/testng-rt.jar:/Users/shaimaaelbazedy/Documents/Automation projects/Shaft_Engine/Projects/SpriteCloudDemo/target/test-classes:/Users/shaimaaelbazedy/Documents/Automation projects/Shaft_Engine/Projects/SpriteCloudDemo/target/classes:/Users/shaimaaelbazedy/.m2/repository/io/github/shafthq/SHAFT_ENGINE/6.4.20221204/SHAFT_ENGINE-6.4.20221204.jar:/Users/shaimaaelbazedy/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/shaimaaelbazedy/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-java/4.7.0/selenium-java-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-api/4.7.0/selenium-api-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.7.0/selenium-chrome-driver-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.7.0/selenium-chromium-driver-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-json/4.7.0/selenium-json-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.7.0/selenium-devtools-v106-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.7.0/selenium-devtools-v107-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.7.0/selenium-devtools-v108-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.7.0/selenium-devtools-v85-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.7.0/selenium-edge-driver-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.7.0/selenium-firefox-driver-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.7.0/selenium-ie-driver-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.7.0/selenium-remote-driver-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-codec-http/4.1.84.Final/netty-codec-http-4.1.84.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.84.Final/netty-transport-classes-epoll-4.1.84.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.84.Final/netty-transport-classes-kqueue-4.1.84.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-transport-native-epoll/4.1.84.Final/netty-transport-native-epoll-4.1.84.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.84.Final/netty-transport-native-kqueue-4.1.84.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-api/1.19.0/opentelemetry-api-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-context/1.19.0/opentelemetry-context-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.19.0/opentelemetry-exporter-logging-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.19.0/opentelemetry-sdk-metrics-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.19.0-alpha/opentelemetry-sdk-logs-1.19.0-alpha.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.19.0/opentelemetry-sdk-common-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.19.0/opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.19.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.19.0/opentelemetry-exporter-common-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.19.0/opentelemetry-sdk-trace-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.19.0-alpha/opentelemetry-semconv-1.19.0-alpha.jar:/Users/shaimaaelbazedy/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/shaimaaelbazedy/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar:/Users/shaimaaelbazedy/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/shaimaaelbazedy/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/shaimaaelbazedy/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-http/4.7.0/selenium-http-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.7.0/selenium-manager-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.7.0/selenium-safari-driver-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/seleniumhq/selenium/selenium-support/4.7.0/selenium-support-4.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-handler/4.1.85.Final/netty-handler-4.1.85.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-common/4.1.85.Final/netty-common-4.1.85.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-resolver/4.1.85.Final/netty-resolver-4.1.85.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-buffer/4.1.85.Final/netty-buffer-4.1.85.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-transport/4.1.85.Final/netty-transport-4.1.85.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.85.Final/netty-transport-native-unix-common-4.1.85.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/netty/netty-codec/4.1.85.Final/netty-codec-4.1.85.Final.jar:/Users/shaimaaelbazedy/.m2/repository/io/appium/java-client/8.3.0/java-client-8.3.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/code/gson/gson/2.10/gson-2.10.jar:/Users/shaimaaelbazedy/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/shaimaaelbazedy/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/shaimaaelbazedy/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/shaimaaelbazedy/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/shaimaaelbazedy/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/shaimaaelbazedy/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.1/webdrivermanager-5.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/shaimaaelbazedy/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/shaimaaelbazedy/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/cucumber-java/7.9.0/cucumber-java-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/cucumber-core/7.9.0/cucumber-core-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/cucumber-gherkin/7.9.0/cucumber-gherkin-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.9.0/cucumber-gherkin-messages-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/gherkin/24.1.0/gherkin-24.1.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/datatable/7.9.0/datatable-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/cucumber-plugin/7.9.0/cucumber-plugin-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/docstring/7.9.0/docstring-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/cucumber-testng/7.9.0/cucumber-testng-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/cucumber/cucumber-picocontainer/7.9.0/cucumber-picocontainer-7.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/shaimaaelbazedy/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/shaimaaelbazedy/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/shaimaaelbazedy/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/shaimaaelbazedy/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/shaimaaelbazedy/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:/Users/shaimaaelbazedy/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.20.1/allure-cucumber7-jvm-2.20.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/shaimaaelbazedy/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/shaimaaelbazedy/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/pdfbox/pdfbox/2.0.27/pdfbox-2.0.27.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/pdfbox/fontbox/2.0.27/fontbox-2.0.27.jar:/Users/shaimaaelbazedy/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/shaimaaelbazedy/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/shaimaaelbazedy/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/shaimaaelbazedy/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/shaimaaelbazedy/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/shaimaaelbazedy/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/shaimaaelbazedy/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/shaimaaelbazedy/.m2/repository/eu/medsea/mimeutil/mime-util/2.1.3/mime-util-2.1.3.jar:/Users/shaimaaelbazedy/.m2/repository/io/rest-assured/json-schema-validator/5.3.0/json-schema-validator-5.3.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/shaimaaelbazedy/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/shaimaaelbazedy/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/shaimaaelbazedy/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/shaimaaelbazedy/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/shaimaaelbazedy/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.14.1/jackson-datatype-jdk8-2.14.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/applitools/eyes-images-java4/4.14.0/eyes-images-java4-4.14.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/applitools/eyes-common-java4/4.14.0/eyes-common-java4-4.14.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/imgscalr/imgscalr-lib/4.2/imgscalr-lib-4.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/helger/ph-css/6.1.1/ph-css-6.1.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/helger/ph-commons/9.0.2/ph-commons-9.0.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/shaimaaelbazedy/.m2/repository/com/applitools/eyes-sdk-core-java4/4.14.0/eyes-sdk-core-java4-4.14.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/applitools/eyes-connectivity-java4-jersey2x/4.14.0/eyes-connectivity-java4-jersey2x-4.14.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/jersey/connectors/jersey-apache-connector/2.16/jersey-apache-connector-2.16.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/jersey/core/jersey-common/2.16/jersey-common-2.16.jar:/Users/shaimaaelbazedy/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.16/jersey-guava-2.16.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar:/Users/shaimaaelbazedy/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/jersey/core/jersey-client/2.16/jersey-client-2.16.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/hk2/hk2-api/2.4.0-b09/hk2-api-2.4.0-b09.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/hk2/hk2-utils/2.4.0-b09/hk2-utils-2.4.0-b09.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b09/aopalliance-repackaged-2.4.0-b09.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/hk2/external/javax.inject/2.4.0-b09/javax.inject-2.4.0-b09.jar:/Users/shaimaaelbazedy/.m2/repository/org/glassfish/hk2/hk2-locator/2.4.0-b09/hk2-locator-2.4.0-b09.jar:/Users/shaimaaelbazedy/.m2/repository/org/openpnp/opencv/4.5.5-1/opencv-4.5.5-1.jar:/Users/shaimaaelbazedy/.m2/repository/com/sikulix/sikulixapi/2.0.5/sikulixapi-2.0.5.jar:/Users/shaimaaelbazedy/.m2/repository/org/python/jython-slim/2.7.2/jython-slim-2.7.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/antlr/antlr/3.5.2/antlr-3.5.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar:/Users/shaimaaelbazedy/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.62/bcpkix-jdk15on-1.62.jar:/Users/shaimaaelbazedy/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.62/bcprov-jdk15on-1.62.jar:/Users/shaimaaelbazedy/.m2/repository/org/ow2/asm/asm-commons/7.1/asm-commons-7.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/ow2/asm/asm-tree/7.1/asm-tree-7.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/ow2/asm/asm-analysis/7.1/asm-analysis-7.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/ow2/asm/asm-util/7.1/asm-util-7.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/ibm/icu/icu4j/59.1/icu4j-59.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/carrotsearch/java-sizeof/0.0.5/java-sizeof-0.0.5.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jnr/jffi/1.2.20/jffi-1.2.20.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jnr/jnr-netdb/1.1.6/jnr-netdb-1.1.6.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jnr/jnr-ffi/2.1.10/jnr-ffi-2.1.10.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jnr/jffi/1.2.19/jffi-1.2.19-native.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jnr/jnr-a64asm/1.0.0/jnr-a64asm-1.0.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jnr/jnr-posix/3.0.50/jnr-posix-3.0.50.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jnr/jnr-constants/0.9.12/jnr-constants-0.9.12.jar:/Users/shaimaaelbazedy/.m2/repository/jline/jline/2.14.5/jline-2.14.5.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/ant/ant/1.9.7/ant-1.9.7.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.jar:/Users/shaimaaelbazedy/.m2/repository/com/sikulix/sikulix2tigervnc/1.1.4/sikulix2tigervnc-1.1.4.jar:/Users/shaimaaelbazedy/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shaimaaelbazedy/.m2/repository/net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0.jar:/Users/shaimaaelbazedy/.m2/repository/net/oneandone/reflections8/reflections8/0.11.6/reflections8-0.11.6.jar:/Users/shaimaaelbazedy/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar:/Users/shaimaaelbazedy/.m2/repository/net/sourceforge/tess4j/tess4j/4.5.4/tess4j-4.5.4.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/ghost4j/ghost4j/1.0.1/ghost4j-1.0.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/1.4/xmlgraphics-commons-1.4.jar:/Users/shaimaaelbazedy/.m2/repository/com/lowagie/itext/2.1.7/itext-2.1.7.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/pdfbox/pdfbox-tools/2.0.21/pdfbox-tools-2.0.21.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/pdfbox/pdfbox-debugger/2.0.21/pdfbox-debugger-2.0.21.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.jar:/Users/shaimaaelbazedy/.m2/repository/net/sourceforge/lept4j/lept4j/1.13.2/lept4j-1.13.2.jar:/Users/shaimaaelbazedy/.m2/repository/org/jboss/jboss-vfs/3.2.15.Final/jboss-vfs-3.2.15.Final.jar:/Users/shaimaaelbazedy/.m2/repository/org/jboss/logging/jboss-logging/3.1.4.GA/jboss-logging-3.1.4.GA.jar:/Users/shaimaaelbazedy/.m2/repository/net/sf/py4j/py4j/0.10.9.1/py4j-0.10.9.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/epam/healenium/healenium-web/3.3.1/healenium-web-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/typesafe/config/1.4.2/config-1.4.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/commons/commons-text/1.6/commons-text-1.6.jar:/Users/shaimaaelbazedy/.m2/repository/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar:/Users/shaimaaelbazedy/.m2/repository/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.jar:/Users/shaimaaelbazedy/.m2/repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar:/Users/shaimaaelbazedy/.m2/repository/one/util/streamex/0.8.1/streamex-0.8.1.jar:/Users/shaimaaelbazedy/.m2/repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar:/Users/shaimaaelbazedy/.m2/repository/com/assertthat/selenium-shutterbug/1.6/selenium-shutterbug-1.6.jar:/Users/shaimaaelbazedy/.m2/repository/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar:/Users/shaimaaelbazedy/.m2/repository/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/shaimaaelbazedy/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/9.4.1.jre16-preview/mssql-jdbc-9.4.1.jre16-preview.jar:/Users/shaimaaelbazedy/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/Users/shaimaaelbazedy/.m2/repository/com/ibm/db2/jcc/db2jcc/db2jcc4/db2jcc-db2jcc4.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-all-deps/3.3.1/jave-all-deps-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-core/3.3.1/jave-core-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-nativebin-win32/3.3.1/jave-nativebin-win32-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-nativebin-win64/3.3.1/jave-nativebin-win64-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-nativebin-linux32/3.3.1/jave-nativebin-linux32-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-nativebin-linux64/3.3.1/jave-nativebin-linux64-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-nativebin-osx64/3.3.1/jave-nativebin-osx64-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-nativebin-osxm1/3.3.1/jave-nativebin-osxm1-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-nativebin-linux-arm32/3.3.1/jave-nativebin-linux-arm32-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/ws/schild/jave-nativebin-linux-arm64/3.3.1/jave-nativebin-linux-arm64-3.3.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/automation-remarks/video-recorder-testng/2.0/video-recorder-testng-2.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/automation-remarks/video-recorder-core/2.0/video-recorder-core-2.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/aeonbits/owner/owner-java8/1.0.10/owner-java8-1.0.10.jar:/Users/shaimaaelbazedy/.m2/repository/org/aeonbits/owner/owner/1.0.10/owner-1.0.10.jar:/Users/shaimaaelbazedy/.m2/repository/org/zeroturnaround/zt-exec/1.10/zt-exec-1.10.jar:/Users/shaimaaelbazedy/.m2/repository/org/awaitility/awaitility/3.1.6/awaitility-3.1.6.jar:/Users/shaimaaelbazedy/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/shaimaaelbazedy/.m2/repository/org/json/json/20180813/json-20180813.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/org/apache/logging/log4j/log4j-1.2-api/2.19.0/log4j-1.2-api-2.19.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/shaimaaelbazedy/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/crypto/tink/tink/1.7.0/tink-1.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/crypto/tink/tink-awskms/1.7.0/tink-awskms-1.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/amazonaws/aws-java-sdk-core/1.12.182/aws-java-sdk-core-1.12.182.jar:/Users/shaimaaelbazedy/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.12.182/aws-java-sdk-kms-1.12.182.jar:/Users/shaimaaelbazedy/.m2/repository/com/amazonaws/jmespath-java/1.12.182/jmespath-java-1.12.182.jar:/Users/shaimaaelbazedy/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.13.1/jackson-dataformat-cbor-2.13.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/crypto/tink/tink-gcpkms/1.7.0/tink-gcpkms-1.7.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/api-client/google-api-client/1.33.2/google-api-client-1.33.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/oauth-client/google-oauth-client/1.33.0/google-oauth-client-1.33.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/http-client/google-http-client-apache-v2/1.41.2/google-http-client-apache-v2-1.41.2.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/apis/google-api-services-cloudkms/v1-rev108-1.25.0/google-api-services-cloudkms-v1-rev108-1.25.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/auth/google-auth-library-oauth2-http/1.5.3/google-auth-library-oauth2-http-1.5.3.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/auth/google-auth-library-credentials/1.5.3/google-auth-library-credentials-1.5.3.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/http-client/google-http-client/1.41.3/google-http-client-1.41.3.jar:/Users/shaimaaelbazedy/.m2/repository/io/opencensus/opencensus-api/0.31.0/opencensus-api-0.31.0.jar:/Users/shaimaaelbazedy/.m2/repository/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar:/Users/shaimaaelbazedy/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.0/opencensus-contrib-http-util-0.31.0.jar:/Users/shaimaaelbazedy/.m2/repository/com/google/http-client/google-http-client-gson/1.41.3/google-http-client-gson-1.41.3.jar:/Users/shaimaaelbazedy/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket64814 @w@/private/var/folders/t4/k4xx5w9n4vx4ppt99rssswkh0000gn/T/idea_working_dirs_testng.tmp -temp /private/var/folders/t4/k4xx5w9n4vx4ppt99rssswkh0000gn/T/idea_testng.tmp"
+        },
+        {
+          "_type": "stdout",
+          "__text": "2022-12-11 22:47:16.904"
+        },
+        {
+          "_type": "stdout",
+          "__text": "INFO"
+        },
+        {
+          "_type": "stdout"
+        },
+        {
+          "_type": "stdout",
+          "__text": "[@534 - main]"
+        },
+        {
+          "_type": "stdout"
+        },
+        {
+          "_type": "stdout",
+          "__text": "com.shaft.tools.io.ReportManager"
+        },
+        {
+          "_type": "stdout",
+          "__text": ": \n################################################################################################################################################\nDetected SHAFT Engine Version: \"SHAFT Engine v6.4.20221204\"\n################################################################################################################################################\n2022-12-11 22:47:18.021"
+        },
+        {
+          "_type": "stdout",
+          "__text": "INFO"
+        },
+        {
+          "_type": "stdout"
+        },
+        {
+          "_type": "stdout",
+          "__text": "[@503 - main]"
+        },
+        {
+          "_type": "stdout"
+        },
+        {
+          "_type": "stdout",
+          "__text": "com.shaft.tools.io.ReportManager"
+        },
+        {
+          "_type": "stdout",
+          "__text": ": Loaded OpenCV \"opencv_java455\".\n2022-12-11 22:47:18.203"
+        },
+        {
+          "_type": "stdout",
+          "__text": "INFO"
+        },
+        {
+          "_type": "stdout"
+        },
+        {
+          "_type": "stdout",
+          "__text": "[@112 - main]"
+        },
+        {
+          "_type": "stdout"
+        },
+        {
+          "_type": "stdout",
+          "__text": "org.testng.internal.Utils"
+        },
+        {
+          "_type": "stdout",
+          "__text": ": [TestNG] Running:\n  /Users/shaimaaelbazedy/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml\n2022-12-11 22:47:18.230"
+        },
+        {
+          "_type": "stdout",
+          "__text": "INFO"
+        },
+        {
+          "_type": "stdout"
+        },
+        {
+          "_type": "stdout",
+          "__text": "[@534 - main]"
+        },
+        {
+          "_type": "stdout"
+        },
+        {
+          "_type": "stdout",
+          "__text": "com.shaft.tools.io.ReportManager"
+        },
+        {
+          "_type": "stdout",
+          "__text": ": \n################################################################################################################################################\nStarting Execution of a Configuration (Setup or Teardown) Method\nTest Method:\t\t\"com.shaft.tools.listeners.LogsHelper.setupActivities\"\n################################################################################################################################################\n===============================================\nSuite\nTotal tests run: 4, Passes: 4, Failures: 0, Skips: 0\n==============================================="
+        },
+        {
+          "_type": "stdout",
+          "__text": "Process finished with exit code 0"
+        }
+      ],
+      "_name": "Suite",
+      "_location": "file:///Users/shaimaaelbazedy/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml"
+    },
+    "suite": {
+      "suite": {
+        "test": [
+          {
+            "output": [
+              {
+                "_type": "stdout",
+                "__text": "2022-12-11 22:47:24.352"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@534 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": \n################################################################################################################################################\nStarting Execution:\t\"1 out of 4\" test cases in the current suite\nTest Method:\t\t\"gui.TextInputTest.textInputScreenNavigation\"\nTest Description:\t\"TC1: Navigating to Text input page and verifying that it's loaded\"\n################################################################################################################################################\n2022-12-11 22:47:25.101"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Click \"Text Input\".\n2022-12-11 22:47:25.115"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Get current window title \"Text Input\".\n2022-12-11 22:47:28.817"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"Screenshot - 1670791645956_textInputScreenNavigation_ValidateBrowserAttribute_passed\"\n2022-12-11 22:47:28.819"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"SHAFT Engine Logs - Current Method log: textInputScreenNavigation\""
+              }
+            ],
+            "_duration": "4491",
+            "_locationUrl": "java:test://gui.TextInputTest/textInputScreenNavigation",
+            "_name": "TextInputTest.textInputScreenNavigation",
+            "_status": "passed"
+          },
+          {
+            "output": [
+              {
+                "_type": "stdout",
+                "__text": "2022-12-11 22:47:28.883"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@534 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": \n################################################################################################################################################\nStarting Execution:\t\"2 out of 4\" test cases in the current suite\nTest Method:\t\t\"gui.TextInputTest.checkingTheDisplayedElements\"\nTest Description:\t\"TC2: Verifying on the displayed button size and text\"\n################################################################################################################################################\n2022-12-11 22:47:28.886"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Attempting to getAttribute \"hidden\" from elementLocator \"By.id: updatingButton\".\n2022-12-11 22:47:28.942"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Get attribute from \"Button That Should Change it's Name Based on Input Value\".\n2022-12-11 22:47:30.754"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"Screenshot - 1670791650161_checkingTheDisplayedElements_ValidateElementAttribute_passed\"\n2022-12-11 22:47:30.839"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Get text \"Button That Should Change it's Name Based on Input Value\" from \"Button That Should Change it's Name Based on Input Value\".\n2022-12-11 22:47:32.530"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"Screenshot - 1670791651950_checkingTheDisplayedElements_ValidateElementAttribute_passed\"\n2022-12-11 22:47:32.531"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"SHAFT Engine Logs - Current Method log: checkingTheDisplayedElements\""
+              }
+            ],
+            "_duration": "3648",
+            "_locationUrl": "java:test://gui.TextInputTest/checkingTheDisplayedElements",
+            "_name": "TextInputTest.checkingTheDisplayedElements",
+            "_status": "passed"
+          },
+          {
+            "output": [
+              {
+                "_type": "stdout",
+                "__text": "2022-12-11 22:47:32.537"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@534 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": \n################################################################################################################################################\nStarting Execution:\t\"3 out of 4\" test cases in the current suite\nTest Method:\t\t\"gui.TextInputTest.checkButtonSizeAndFunctionality\"\nTest Description:\t\"TC3: Checking The button size, text and its functionality before and after\"\n################################################################################################################################################\n2022-12-11 22:47:32.646"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Get size \"(456, 38)\" from \"Button That Should Change it's Name Based on Input Value\".\n2022-12-11 22:47:32.729"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Is element clickable \"element is clickable\" \"Button That Should Change it's Name Based on Input Value\".\n2022-12-11 22:47:32.730"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"DoesFileExist\" successfully performed. With the following test data \"File Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:32.730"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"GetAbsolutePath\" successfully performed. With the following test data \"Relative Folder Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:34.220"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Type \"Hello\" into \"Set New Button Name\".\n2022-12-11 22:47:34.530"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Click \"Button That Should Change it's Name Based on Input Value\".\n2022-12-11 22:47:34.600"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Get size \"(63, 38)\" from \"Hello\".\n2022-12-11 22:47:34.601"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"DoesFileExist\" successfully performed. With the following test data \"File Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:34.601"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"GetAbsolutePath\" successfully performed. With the following test data \"Relative Folder Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:34.650"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Get text \"Hello\" from \"Hello\".\n2022-12-11 22:47:36.276"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"Screenshot - 1670791655746_checkButtonSizeAndFunctionality_ValidateElementAttribute_passed\"\n2022-12-11 22:47:36.277"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"SHAFT Engine Logs - Current Method log: checkButtonSizeAndFunctionality\""
+              }
+            ],
+            "_duration": "3743",
+            "_locationUrl": "java:test://gui.TextInputTest/checkButtonSizeAndFunctionality",
+            "_name": "TextInputTest.checkButtonSizeAndFunctionality",
+            "_status": "passed"
+          },
+          {
+            "output": [
+              {
+                "_type": "stdout",
+                "__text": "2022-12-11 22:47:36.280"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@534 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": \n################################################################################################################################################\nStarting Execution:\t\"4 out of 4\" test cases in the current suite\nTest Method:\t\t\"gui.TextInputTest.appendToExistingText\"\nTest Description:\t\"TC4: Checking the Appending to the existing text in the text field\"\n################################################################################################################################################\n2022-12-11 22:47:36.280"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"DoesFileExist\" successfully performed. With the following test data \"File Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:36.281"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"GetAbsolutePath\" successfully performed. With the following test data \"Relative Folder Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:36.353"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Type append \"World!\" into \"Set New Button Name\".\n2022-12-11 22:47:36.633"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Click \"Hello\".\n2022-12-11 22:47:36.700"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@520 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Get size \"(114, 38)\" from \"Hello World!\".\n2022-12-11 22:47:36.700"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"DoesFileExist\" successfully performed. With the following test data \"File Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:36.701"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"GetAbsolutePath\" successfully performed. With the following test data \"Relative Folder Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:36.712"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"DoesFileExist\" successfully performed. With the following test data \"File Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:36.712"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": File Action \"GetAbsolutePath\" successfully performed. With the following test data \"Relative Folder Path: \"src/test/resources/guiTestDataFiles/testData.json\"\".\n2022-12-11 22:47:36.762"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Get text \"Hello World!\" from \"Hello World!\".\n2022-12-11 22:47:38.728"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"Screenshot - 1670791658192_appendToExistingText_ValidateElementAttribute_passed\"\n2022-12-11 22:47:38.729"
+              },
+              {
+                "_type": "stdout",
+                "__text": "INFO"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "[@503 - main]"
+              },
+              {
+                "_type": "stdout"
+              },
+              {
+                "_type": "stdout",
+                "__text": "com.shaft.tools.io.ReportManager"
+              },
+              {
+                "_type": "stdout",
+                "__text": ": Successfully created attachment \"SHAFT Engine Logs - Current Method log: appendToExistingText\""
+              }
+            ],
+            "_duration": "2450",
+            "_locationUrl": "java:test://gui.TextInputTest/appendToExistingText",
+            "_name": "TextInputTest.appendToExistingText",
+            "_status": "passed"
+          }
+        ],
+        "_duration": "19823",
+        "_locationUrl": "java:suite://gui.TextInputTest",
+        "_name": "TextInputTest",
+        "_status": "passed"
+      },
+      "_duration": "24124",
+      "_locationUrl": "file:///Users/shaimaaelbazedy/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml",
+      "_name": "SpriteCloudDemo",
+      "_status": "passed"
+    },
+    "_duration": "24124",
+    "_footerText": "Generated by IntelliJ IDEA on 12/11/22, 10:47 PM",
+    "_name": "TextInputTest"
+  }
+}

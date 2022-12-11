@@ -1,0 +1,18 @@
+{
+  "id": 126126,
+  "category": {
+    "id": 6,
+    "name": "Kiko"
+  },
+  "name": "fishTest",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 126126,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

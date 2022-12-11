@@ -1,0 +1,18 @@
+
+################################################################################################################################################
+Starting Execution:	"3 out of 4" test cases in the current suite
+Test Method:		"gui.TextInputTest.checkButtonSizeAndFunctionality"
+Test Description:	"TC3: Checking The button size, text and its functionality before and after"
+################################################################################################################################################
+[ReportManager] Get size "(456, 38)" from "Button That Should Change it's Name Based on Input Value". @11-12-2022 16:49:09.0858 PM
+[ReportManager] Is element clickable "element is clickable" "Button That Should Change it's Name Based on Input Value". @11-12-2022 16:49:09.0933 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:09.0934 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:09.0935 PM
+[ReportManager] Type "Hello" into "Set New Button Name". @11-12-2022 16:49:11.0143 PM
+[ReportManager] Click "Button That Should Change it's Name Based on Input Value". @11-12-2022 16:49:11.0433 PM
+[ReportManager] Get size "(63, 38)" from "Hello". @11-12-2022 16:49:11.0514 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:11.0515 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:49:11.0515 PM
+[ReportManager] Get text "Hello" from "Hello". @11-12-2022 16:49:11.0561 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: updatingButton" text is equal to "Hello". @11-12-2022 16:49:13.0236 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670770152691_checkButtonSizeAndFunctionality_ValidateElementAttribute_passed" @11-12-2022 16:49:13.0238 P

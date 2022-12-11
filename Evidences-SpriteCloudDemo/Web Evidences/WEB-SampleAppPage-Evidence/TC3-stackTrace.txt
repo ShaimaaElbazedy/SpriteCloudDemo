@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	"3 out of 6" test cases in the current suite
+Test Method:		"gui.SampleAppTest.navigateToHomeScreen"
+Test Description:	"TC3: Testing Home icon functionality"
+################################################################################################################################################
+[ReportManager] Click "Home". @11-12-2022 16:33:49.0184 PM
+[ReportManager] Get current window title "UI Test Automation Playground". @11-12-2022 16:33:49.0188 PM
+[ReportManager] Verification Passed: The Browser title is equal to "UI Test Automation Playground". @11-12-2022 16:33:51.0808 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769230494_navigateToHomeScreen_ValidateBrowserAttribute_passed" @11-12-2022 16:33:51.0812 P

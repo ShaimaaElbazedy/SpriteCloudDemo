@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	"3 out of 5" test cases in the current suite
+Test Method:		"api.StoreEndpointsTest.deleteStoreOrder"
+Test Description:	"Deleting the created store order"
+################################################################################################################################################
+[ReportManager] Get response jsonvalue "$[?(@.id)].id". @11-12-2022 15:48:12.0910 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @11-12-2022 15:48:15.0326 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @11-12-2022 15:48:15.0326 PM
+[ReportManager] Perform request "DELETE | Target Status Code: 200 | Service URL: https://petstore.swagger.io/v2/store/order/270322 | Content Type: */* | Response Time: 2410ms". @11-12-2022 15:48:15.0342 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @11-12-2022 15:48:15.0342 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @11-12-2022 15:48:15.0343 PM
+[ReportManager] Get response status code "200". @11-12-2022 15:48:15.0344 PM
+[ReportManager] Assertion Passed: "200" is equal to "200". @11-12-2022 15:48:15.0344 PM
+[ReportManager] Assertion Passed: "{"code":200,"type":"unknown","message":"270322"}" contains "270322". @11-12-2022 15:48:15.0344 P

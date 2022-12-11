@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	"6 out of 7" test cases in the current suite
+Test Method:		"api.PetEndpointsTest.getPetWithoutId"
+Test Description:	"TC6: Checking behavior when trying to retrieve a pet without sending an id"
+################################################################################################################################################
+[ReportManager] Response status code: "405", status line: "HTTP/1.1 405 Method Not Allowed" @11-12-2022 15:14:41.0447 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @11-12-2022 15:14:41.0448 PM
+[ReportManager] Perform request "GET | Target Status Code: 405 | Service URL: https://petstore.swagger.io/v2/pet/ | Content Type: */* | Response Time: 801ms". @11-12-2022 15:14:41.0457 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @11-12-2022 15:14:41.0458 PM
+[ReportManager] Successfully created attachment "API Response - Body" @11-12-2022 15:14:41.0458 PM
+[ReportManager] Get response status code "405". @11-12-2022 15:14:41.0459 PM
+[ReportManager] Assertion Passed: "405" is equal to "405". @11-12-2022 15:14:41.0459 P

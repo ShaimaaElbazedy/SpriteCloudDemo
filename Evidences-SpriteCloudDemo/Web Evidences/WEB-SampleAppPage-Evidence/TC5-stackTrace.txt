@@ -1,0 +1,18 @@
+
+################################################################################################################################################
+Starting Execution:	"5 out of 6" test cases in the current suite
+Test Method:		"gui.SampleAppTest.testingKeyPress"
+Test Description:	"TC5: Mimicking ENTER keyboard button instead of clicking on login button"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:56.0669 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:56.0670 PM
+[ReportManager] Type "shaimaa@test.com" into "User Name". @11-12-2022 16:33:56.0870 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:56.0871 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:56.0871 PM
+[ReportManager] Type "pwd" into "********". @11-12-2022 16:33:57.0054 PM
+[ReportManager] Key press "ENTER" against "Log In". @11-12-2022 16:33:57.0129 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:57.0129 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/guiTestDataFiles/testData.json"". @11-12-2022 16:33:57.0130 PM
+[ReportManager] Get text "Welcome, shaimaa@test.com!" from "By.id: loginstatus". @11-12-2022 16:33:57.0172 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: loginstatus" text is equal to "Welcome, shaimaa@test.com!". @11-12-2022 16:33:58.0906 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769238326_testingKeyPress_ValidateElementAttribute_passed" @11-12-2022 16:33:58.0909 P

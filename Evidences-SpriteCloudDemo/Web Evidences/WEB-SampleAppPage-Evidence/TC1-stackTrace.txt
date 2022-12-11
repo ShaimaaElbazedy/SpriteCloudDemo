@@ -1,0 +1,14 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 6" test cases in the current suite
+Test Method:		"gui.SampleAppTest.verifyingOnSampleAppScreen"
+Test Description:	"TC1: Navigating to SampleApp page and Asserting on initial login status"
+################################################################################################################################################
+[ReportManager] Scroll to element "Sample App". @11-12-2022 16:33:36.0362 PM
+[ReportManager] Click "Sample App". @11-12-2022 16:33:37.0114 PM
+[ReportManager] Get current window title "Sample App". @11-12-2022 16:33:37.0130 PM
+[ReportManager] Verification Passed: The Browser title is equal to "Sample App". @11-12-2022 16:33:40.0725 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769217964_verifyingOnSampleAppScreen_ValidateBrowserAttribute_passed" @11-12-2022 16:33:40.0742 PM
+[ReportManager] Get text "User logged out." from "By.id: loginstatus". @11-12-2022 16:33:40.0787 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: loginstatus" text is equal to "User logged out.". @11-12-2022 16:33:42.0560 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670769221996_verifyingOnSampleAppScreen_ValidateElementAttribute_passed" @11-12-2022 16:33:42.0563 P

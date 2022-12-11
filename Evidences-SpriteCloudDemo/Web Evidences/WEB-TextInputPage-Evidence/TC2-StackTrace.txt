@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	"2 out of 4" test cases in the current suite
+Test Method:		"gui.TextInputTest.checkingTheDisplayedElements"
+Test Description:	"TC2: Verifying on the displayed button size and text"
+################################################################################################################################################
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.id: updatingButton". @11-12-2022 16:49:06.0145 PM
+[ReportManager] Get attribute from "Button That Should Change it's Name Based on Input Value". @11-12-2022 16:49:06.0199 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: updatingButton" is visible, hidden attribute is equal to "null". @11-12-2022 16:49:08.0019 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670770147438_checkingTheDisplayedElements_ValidateElementAttribute_passed" @11-12-2022 16:49:08.0022 PM
+[ReportManager] Get text "Button That Should Change it's Name Based on Input Value" from "Button That Should Change it's Name Based on Input Value". @11-12-2022 16:49:08.0060 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: updatingButton" text is equal to "Button That Should Change it's Name Based on Input Value". @11-12-2022 16:49:09.0750 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670770149188_checkingTheDisplayedElements_ValidateElementAttribute_passed" @11-12-2022 16:49:09.0752 P

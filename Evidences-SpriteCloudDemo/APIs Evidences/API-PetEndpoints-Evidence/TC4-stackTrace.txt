@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	"4 out of 7" test cases in the current suite
+Test Method:		"api.PetEndpointsTest.getPetByStatus"
+Test Description:	"TC4: Checking the functionality of retrieving pet by allowed status (available, pending, sold)"
+################################################################################################################################################
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @11-12-2022 15:14:39.0210 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @11-12-2022 15:14:39.0211 PM
+[ReportManager] Perform request "GET | Target Status Code: 200 | Service URL: https://petstore.swagger.io/v2/pet/findByStatus?status=available | Content Type: */* | Response Time: 856ms". @11-12-2022 15:14:39.0711 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @11-12-2022 15:14:39.0711 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @11-12-2022 15:14:39.0722 PM
+[ReportManager] Get response jsonvalue "$[?(@.id)].status". @11-12-2022 15:14:39.0785 PM
+[ReportManager] Assertion Passed: The API response extracted value from the JSON path "$[?(@.id)].status" is equal to "available". @11-12-2022 15:14:39.0786 P

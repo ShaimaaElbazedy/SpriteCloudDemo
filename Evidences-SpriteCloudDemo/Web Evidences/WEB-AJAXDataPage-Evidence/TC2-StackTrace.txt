@@ -1,0 +1,25 @@
+
+################################################################################################################################################
+Starting Execution:	"2 out of 3" test cases in the current suite
+Test Method:		"gui.AJAXDataTest.checkButtonAndLoaderBehavior"
+Test Description:	"TC2: Verifying on button functionality and spin loader"
+################################################################################################################################################
+[ReportManager] Attempting to getAttribute "disabled" from elementLocator "By.id: ajaxButton". @11-12-2022 16:20:19.0115 PM
+[ReportManager] Get attribute from "Button Triggering AJAX Request". @11-12-2022 16:20:19.0163 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: ajaxButton" is enabled, disabled attribute is equal to "null". @11-12-2022 16:20:21.0025 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670768420385_checkButtonAndLoaderBehavior_ValidateElementAttribute_passed" @11-12-2022 16:20:21.0028 PM
+[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$702/0x000000080124efb8@5cb9ef8a (tried for 20 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='content']/*[1]"} @11-12-2022 16:20:41.0109 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='content']/*[1]" does not exist. @11-12-2022 16:20:43.0277 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670768441832_checkButtonAndLoaderBehavior_ValidateElementExists_passed" @11-12-2022 16:20:43.0279 PM
+[ReportManager] Click "Button Triggering AJAX Request". @11-12-2022 16:20:43.0572 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.id: spinner". @11-12-2022 16:20:43.0573 PM
+[ReportManager] Get attribute from "By.id: spinner". @11-12-2022 16:20:43.0618 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: spinner" is visible, hidden attribute is equal to "null". @11-12-2022 16:20:45.0291 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670768444766_checkButtonAndLoaderBehavior_ValidateElementAttribute_passed" @11-12-2022 16:20:45.0293 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.xpath: //*[@id='content']/*[1]". @11-12-2022 16:20:45.0293 PM
+[ReportManager] Get attribute from "By.xpath: //*[@id='content']/*[1]". @11-12-2022 16:20:59.0028 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='content']/*[1]" is visible, hidden attribute is equal to "null". @11-12-2022 16:21:00.0652 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670768460132_checkButtonAndLoaderBehavior_ValidateElementAttribute_passed" @11-12-2022 16:21:00.0654 PM
+[ReportManager] Get text "Data loaded with AJAX get request." from "By.xpath: //*[@id='content']/*[1]". @11-12-2022 16:21:00.0688 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='content']/*[1]" text is equal to "Data loaded with AJAX get request.". @11-12-2022 16:21:02.0335 PM
+[ReportManager] Successfully created attachment "Screenshot - 1670768461812_checkButtonAndLoaderBehavior_ValidateElementAttribute_passed" @11-12-2022 16:21:02.0336 P

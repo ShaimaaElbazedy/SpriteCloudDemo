@@ -1,0 +1,14 @@
+
+################################################################################################################################################
+Starting Execution:	"5 out of 7" test cases in the current suite
+Test Method:		"api.PetEndpointsTest.getNotFoundPet"
+Test Description:	"TC5: Checking behavior when trying to retrieve a Not found pet"
+################################################################################################################################################
+[ReportManager] Response status code: "404", status line: "HTTP/1.1 404 Not Found" @11-12-2022 15:14:40.0617 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @11-12-2022 15:14:40.0618 PM
+[ReportManager] Perform request "GET | Target Status Code: 404 | Service URL: https://petstore.swagger.io/v2/pet/12 | Content Type: */* | Response Time: 825ms". @11-12-2022 15:14:40.0631 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @11-12-2022 15:14:40.0632 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @11-12-2022 15:14:40.0633 PM
+[ReportManager] Assertion Passed: "{"code":1,"type":"error","message":"Pet not found"}" contains "Pet not found". @11-12-2022 15:14:40.0634 PM
+[ReportManager] Get response status code "404". @11-12-2022 15:14:40.0635 PM
+[ReportManager] Assertion Passed: "404" is equal to "404". @11-12-2022 15:14:40.0636 P
