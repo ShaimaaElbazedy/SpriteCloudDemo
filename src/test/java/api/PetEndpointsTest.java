@@ -3,12 +3,11 @@ package api;
 import com.shaft.driver.SHAFT;
 
 import com.shaft.validation.Validations;
-import io.cucumber.java.ja.但し;
 import io.restassured.http.ContentType;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class petEndpointsTest {
+public class PetEndpointsTest {
     SHAFT.API apiDriver;
     SHAFT.CLI driverCLI;
     PetClass petClass;

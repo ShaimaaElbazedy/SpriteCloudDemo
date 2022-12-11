@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class storeEndpointsTest {
+public class StoreEndpointsTest {
     SHAFT.API apiDriver;
     SHAFT.CLI driverCLI;
     StoreClass storeClass;
