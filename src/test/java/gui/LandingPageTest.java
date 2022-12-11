@@ -15,12 +15,6 @@ public class LandingPageTest {
         driver.verifyThat().browser().title().isEqualTo("UI Test Automation Playground").perform();
     }
 
-
-
-
-
-
-
     @BeforeClass
     public void beforeClass() {
         driver = new SHAFT.GUI.WebDriver();

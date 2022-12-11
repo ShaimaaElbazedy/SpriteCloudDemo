@@ -16,15 +16,18 @@ public class LandingPage {
     }
 
     //Locators
-    public static By sampleAppLink(){
+    public  By sampleAppLink(){
         return By.xpath("//a[@href='/sampleapp']");
     }
-    public static By textInputLink(){
+    public  By textInputLink(){
         return By.xpath("//a[@href='/textinput']");
     }
-    public static By ajaxDataLink(){
+    public  By ajaxDataLink(){
         return By.xpath("//a[@href='/ajax']");
     }
+    public By scrollBarsLink() { return By.xpath("//a[@href='/scrollbars']"); }
+
+
 
     //Operations
     public void navigate(){
@@ -43,6 +46,11 @@ public class LandingPage {
     public AJAXDataPaga clickOnAjaxDataLink(){
         driver.element().click(ajaxDataLink());
         return new AJAXDataPaga(driver);
+    }
+    public ScrollBarsPage clickOnScrollBarsLink() {
+        driver.element().scrollToElement(scrollBarsLink())
+                .click(scrollBarsLink());
+        return new ScrollBarsPage(driver);
     }
 
 }
